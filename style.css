@@ -39,8 +39,17 @@ html {
     background-image: url(./images/email-pattern.jpeg);
   }
 
+.imagePlaceholder1 {
+  float: left;
+}
 
-  .container-2 {
-    
-  }
-  
+.imagePlaceholder2 {
+  position: relative;
+  right: 50px;
+  top: 50px;
+  left: 300px;
+  bottom: 100px;
+
+
+
+}
