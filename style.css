@@ -18,15 +18,10 @@
     background-image: url(./images/email-pattern.jpeg);
   }
 
-.imagePlaceholder1 {
+.card {
   float: left;
-}
+  }
+  footer, .container {
+    clear: both;
+  }
 
-.imagePlaceholder2 {
-  position: relative;
-  right: 250px;
-  top: 50px;
-  left: 300px;
-  bottom: 450px;
-  overflow: auto;
-}
