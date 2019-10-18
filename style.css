@@ -6,20 +6,23 @@
   }
 
   body {
-    background-image: url(./images/email-pattern.jpeg);
+    background-image: url(./images/desert.jpg);
+    margin: auto;
+    width: 1000px;
   }
   
   .container {
-    background-image: url(./images/email-pattern.jpeg);
+   
     margin: auto;
   }
   
   .jumbotron {
-    background-image: url(./images/email-pattern.jpeg);
+    
   }
 
 .card {
   float: left;
+  overflow: hidden;
   }
   footer, .container {
     clear: both;
