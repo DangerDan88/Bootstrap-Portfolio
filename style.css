@@ -8,7 +8,7 @@
   body {
     background-image: url(./images/desert.jpg);
     margin: auto;
-    width: 1000px;
+    width: auto;
   }
   
   .container {
@@ -21,8 +21,11 @@
   }
 
 .card {
-  float: left;
+ 
   overflow: hidden;
+  }
+  ul {
+    display: inline;
   }
   footer, .container {
     clear: both;
