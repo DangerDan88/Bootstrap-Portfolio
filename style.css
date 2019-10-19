@@ -6,7 +6,8 @@
   }
 
   body {
-    background-image: url(./images/desert.jpg);
+    background-image: url(./images/download.jpg);
+    background-size: 500px;
     margin: auto;
     width: auto;
   }
@@ -24,10 +25,13 @@
  
   overflow: hidden;
   }
-  ul {
-    display: inline;
-  }
+
   footer, .container {
     clear: both;
+  }
+
+  nav {
+    background-color: rgb(28, 109, 190);
+    
   }
 
