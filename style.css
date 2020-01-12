@@ -1,37 +1,41 @@
+.active {
+  color: lawngreen;
+  color: white !important;
+}
 
+body {
+  background-image: url(./images/matrix.jpg);
+  background-size: 700px;
+  margin: auto;
+  width: auto;
+}
 
-  .active {
-    background-color: teal; 
-    color: white !important;
-  }
+.container-fluid {
+  margin: auto;
+  background-color: rgb(15, 22, 13);
+  color: yellowgreen;
+  display: inline-block;
+  align-content: center;
+}
 
-  body {
-    background-image: url(./images/download.jpg);
-    background-size: 500px;
-    margin: auto;
-    width: auto;
-  }
-  
-  .container {
-   
-    margin: auto;
-  }
-  
-  .jumbotron {
-    
-  }
+.jumbotron-fluid {
+  align-content: center;
+  overflow: auto;
+}
 
 .card {
- 
   overflow: hidden;
-  }
+}
 
-  footer, .container {
-    clear: both;
-  }
+footer .container {
+  clear: both;
+}
 
-  nav {
-    background-color: rgb(28, 109, 190);
-    
-  }
+.navbar {
+  background-color: rgb(3, 10, 17);
+}
 
+.nav-item,
+.navbar-brand {
+  color: lawngreen;
+}
